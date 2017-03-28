@@ -35,3 +35,12 @@ describe('Minus', function () {
     SafeFloat.minus('-2', '-4.52').should.equal('2.52')
   })
 })
+
+describe('Multiply', function () {
+  it('should always be accurate in calculations.', function () {
+    SafeFloat.multiply('0.11', '0.22').should.equal('0.0242')
+    SafeFloat.multiply('0.5', '0.22').should.equal('0.11')
+    SafeFloat.multiply('5', '0.2').should.equal('1')
+    SafeFloat.multiply('5', '-0.222').should.equal('-1.11')
+  })
+})
