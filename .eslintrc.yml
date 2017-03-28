@@ -1,0 +1,8 @@
+root: true
+parser: 'babel-eslint'
+parserOptions:
+  sourceType: 'module'
+extends: airbnb-base
+esversion: 6
+plugins:
+  - import
