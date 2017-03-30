@@ -1,6 +1,6 @@
 {
   "name": "safe-float",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Safe operations for float numbers.",
   "main": "lib/safe-float.js",
   "scripts": {
